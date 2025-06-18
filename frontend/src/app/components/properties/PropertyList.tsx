@@ -7,9 +7,7 @@ export default function PropertyList() {
         <PropertyListItem />
         <PropertyListItem />
         <PropertyListItem />
-        <PropertyListItem />
-        <PropertyListItem />
-        <PropertyListItem />
+
     </div>
   )
 }

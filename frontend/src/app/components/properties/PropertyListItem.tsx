@@ -16,7 +16,7 @@ export default function PropertyListItem() {
         />
       </div>
       <div className="mt-2">
-        <p className="text-lg font-bold text-gray-800">Property className</p>
+        <p className="text-lg font-bold text-gray-800">Property Name</p>
       </div>
       <div className="mt-w">
         <p className="text-sm text-gray-600"><strong>$200</strong> per night</p>
