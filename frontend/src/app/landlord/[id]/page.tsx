@@ -28,7 +28,6 @@ export default function Landlord() {
                 
               </div>
             </div>
-
         </div>
     </main>
   )
