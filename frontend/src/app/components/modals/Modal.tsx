@@ -37,7 +37,8 @@ export default function Modal({ label, content, isOpen, close }: ModalProps) {
                     <header className="relative flex items-center justify-center p-6 border-b border-b-gray-300 rounded-t">
                         <h2 className="text-lg font-bold">{label}</h2>
                         <div className="absolute right-3 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-200 rounded-full cursor-pointer">
-                            <X onClick={() => {}}className="text-airbnb" size={20} />
+                            <X onClick={() => handleClose()} className="text-airbnb" size={20} />
+
                         </div>
                     </header>
 
