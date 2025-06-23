@@ -4,10 +4,12 @@ import { Menu, User } from 'lucide-react'
 import { useState } from 'react'
 import MenuLink from './MenuLink'
 import useLoginModal from '@/app/hooks/useLoginModal'
+import useSignupModal from '@/app/hooks/useSignupModal'
 
 export default function Usernav() {
   const [isOpen, setIsOpen] = useState(false)
   const loginModal = useLoginModal();
+  const signupModal = useSignupModal();
   
 
   return (
@@ -28,7 +30,10 @@ export default function Usernav() {
             />
             <MenuLink 
               label="Sign up"
-              onClick={() => console.log('Sign up clicked')}
+              onClick={() => {
+                signupModal.open();
+                setIsOpen(false);
+              }}
             />
             
           </div>
